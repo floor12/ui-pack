@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Floo12 Notifications example</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="../css/floor12-notification.css">
+    <script src="../js/floor12-notification.js"></script>
+    <style>
+        .button-set {
+            display: flex;
+            max-width: 300px;
+            margin: 30% auto 0;
+            justify-content: space-between;
+        }
+
+        .button-set button {
+            width: 30%;
+            font-size: 20px;
+        }
+    </style>
+</head>
+<body>
+
+<div class="button-set">
+    <button onclick="f12notification.info('This is information message.')">Info</button>
+    <button onclick="f12notification.error('This is error message.')">Error</button>
+    <button onclick="f12notification.success('This is success message.')">Success</button>
+</div>
+
+</body>
+</html>

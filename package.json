@@ -1,0 +1,14 @@
+{
+  "name": "floor12-ui-pack",
+  "version": "1.0.1",
+  "description": "Floor12 UI-widgets pack",
+  "main": "index.js",
+  "directories": {
+    "example": "example"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "floor12",
+  "license": "MIT"
+}
